@@ -1,4 +1,5 @@
-# DPT-PluginRepoTemplate
-DPT Specific Plugins for Bukkit-based plugin template
+# AnarchySpawn
 
-![Build](https://github.com/dptmc/DPT-PluginRepoTemplate/workflows/Build/badge.svg)
+AnarchySpawn
+
+![Build](https://github.com/dptmc/AnarchySpawn/workflows/Build/badge.svg)
