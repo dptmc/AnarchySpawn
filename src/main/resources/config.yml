@@ -1,0 +1,32 @@
+# config
+
+debug: false
+
+default-world: "world"
+
+minX: -300
+minZ: -300
+
+maxX: 300
+maxZ: 300
+
+# No longer implemented
+#allowed-blocks:
+#  - grass_block
+#  - dirt
+#  - log
+#  - grass
+#  - leaves
+#  - obsidian
+#  - cobblestone
+#  - tall_grass
+#  - grass
+
+# Nerf block
+disallowed-blocks:
+  - diamond_block
+  - lava
+  - water
+
+# times to check for a valid teleport position
+max-trys: 10

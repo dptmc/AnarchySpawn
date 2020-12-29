@@ -1,6 +1,14 @@
-name: PluginName
+name: AnarchySpawn
 version: @version@-@apiversion@
-description: An empty plugin for Spigot with Maven
-authors: [ DartPower, AnotherContributorName ]
+authors: [ DartPower, crazicrafter1 ]
 website: https://github.com/dptmc/DPT-PluginRepoTemplate
-main: io.dpteam.PluginName.Main
+main: io.dpteam.AnarchySpawn.Main
+api-version: 1.13
+commands:
+  as:
+    usage: /<command> [reload]
+    description: reload config of AnarchySpawn
+    permission: as.reload
+permissions:
+  as.reload:
+    default: op
