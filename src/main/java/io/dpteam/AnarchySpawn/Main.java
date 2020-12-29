@@ -64,7 +64,7 @@ public class Main extends JavaPlugin {
 	}
 
 	private boolean isRoof(Location location) {
-		int MIN_REQUIRED = true;
+		boolean MIN_REQUIRED = true;
 		int current = 0;
 
 		for(int x = location.getBlockX() - 30; x < location.getBlockX() + 30; x += 4) {
